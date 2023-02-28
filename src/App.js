@@ -12,9 +12,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch(
-        'https://react-http-1faf1-default-rtdb.firebaseio.com/tasks.json'
-      );
+      const response = await fetch('');
 
       if (!response.ok) {
         throw new Error('Request failed!');
